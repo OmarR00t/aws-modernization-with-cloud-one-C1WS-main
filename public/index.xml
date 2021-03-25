@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Main Page on Data Security with Trend Micro</title>
+    <link>/</link>
+    <description>Recent content in Main Page on Data Security with Trend Micro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trend Micro Cloud One</title>
+      <link>/00_introduction/01_cloud_one.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00_introduction/01_cloud_one.html</guid>
+      <description>What is Trend Micro Cloud One? Trend Micro Cloud One, a security services platform for organizations building in the cloud, delivers the broadest and deepest cloud security offering in one solution, enabling you to secure your cloud infrastructure with clarity and simplicity. By considering your cloud projects and objectives holistically, Trend Micro Cloud One is able to provide powerful security, while you leverage all of the benefits and efficiencies the cloud offers your business.</description>
+    </item>
+    
+    <item>
+      <title>Cloud One workload Security</title>
+      <link>/00_introduction/02_workload_security.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00_introduction/02_workload_security.html</guid>
+      <description>workload security Cloud one workload security is part of the Trend Micro Cloud One™ security service platform,it designed to secure your workloads at runtime for any of those enviroments (physical,virtual,cloud and container) securely by offering multiple advantages:
+1-Automated:
+Security as code lets your DevOps teams bake security into their build pipeline to release continuously and frequently. With built-in automation, including automated discovery and deployment, quick-start templates, and our Automation Center, secure your environment and meet compliance requirements quickly.</description>
+    </item>
+    
+    <item>
+      <title>Testing your Deployment</title>
+      <link>/02_deploy/03_test_deploy.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/02_deploy/03_test_deploy.html</guid>
+      <description>Generating your First Detection To test your deployment, you&amp;rsquo;ll need to generate a malware detection using the eicar file. Follow the instructions below. There is also a video demonstration if you prefer.
+ Obtain the EICAR file:
+Temporarily disable your virus scanner, otherwise it will catch the eicar file and delete it. Go to the EICAR file page and download eicar_com.zip or any of the other versions of this file.</description>
+    </item>
+    
+    <item>
+      <title>Visibility with CloudWatch</title>
+      <link>/03_automation/04_cloud_watch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/04_cloud_watch.html</guid>
+      <description>Monitoring your Scans with CloudWatch File Storage Security logs are in AWS CloudWatch Logs. These logs contain a bit more information than what&amp;rsquo;s available in the fss-* tags.
+To view the scan result logs in CloudWatch Logs, go to your AWS account, in CloudFormation &amp;gt; your scanner stack &amp;gt; Resources &amp;gt; ScannerLogGroup link. The CloudWatch service appears with Log groups selected on the left.
+Under Log streams, click a log stream with a Last event time that is later than or equal to the time when you added the file to the S3 bucket to scan and expand the event message that starts with scanner result.</description>
+    </item>
+    
+    <item>
+      <title>Slack Integration</title>
+      <link>/03_automation/05_slack_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/05_slack_integration.html</guid>
+      <description>In this integration, we will make a lambda function send a Slack message every time that we have a new detection, you can deploy this automation using the AWS COnsole, AWS CLI or Makefile. In this example we will demonstrate using the AWS CLI:
+Requirements  Install and COnfigure the AWS CLI - Install the AWS command line interface (CLI). See Installing the AWS CLI for details. Configure Slack Webhook App</description>
+    </item>
+    
+    <item>
+      <title>Quarantine Malicious Files</title>
+      <link>/03_automation/06_promote_and_quarantine.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/06_promote_and_quarantine.html</guid>
+      <description>Prerequisites  Create S3 buckets  Create a &amp;lsquo;Promote bucket&amp;rsquo; to receive clean files. Example: fss-promote. Create a &amp;lsquo;Quarantine bucket&amp;rsquo; to receive quarantined files. Example: fss-quarantine.  Find the &amp;lsquo;ScanResultTopic&amp;rsquo; SNS topic ARN  In the AWS console, go to Services &amp;gt; CloudFormation &amp;gt; your all-in-one stack &amp;gt; Resources &amp;gt; your storage stack &amp;gt; Resources. Scroll down to locate the ScanResultTopic Logical ID. Copy the ScanResultTopic ARN to a temporary location.</description>
+    </item>
+    
+    <item>
+      <title>Security Hub Integration</title>
+      <link>/03_automation/07_securityhub_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/07_securityhub_integration.html</guid>
+      <description> Monitoring your Scans in Security Hub </description>
+    </item>
+    
+  </channel>
+</rss>

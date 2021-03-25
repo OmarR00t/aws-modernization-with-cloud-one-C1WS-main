@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation and Monitoring on Data Security with Trend Micro</title>
+    <link>/03_automation.html</link>
+    <description>Recent content in Automation and Monitoring on Data Security with Trend Micro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/03_automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visibility with CloudWatch</title>
+      <link>/03_automation/04_cloud_watch.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/04_cloud_watch.html</guid>
+      <description>Monitoring your Scans with CloudWatch File Storage Security logs are in AWS CloudWatch Logs. These logs contain a bit more information than what&amp;rsquo;s available in the fss-* tags.
+To view the scan result logs in CloudWatch Logs, go to your AWS account, in CloudFormation &amp;gt; your scanner stack &amp;gt; Resources &amp;gt; ScannerLogGroup link. The CloudWatch service appears with Log groups selected on the left.
+Under Log streams, click a log stream with a Last event time that is later than or equal to the time when you added the file to the S3 bucket to scan and expand the event message that starts with scanner result.</description>
+    </item>
+    
+    <item>
+      <title>Slack Integration</title>
+      <link>/03_automation/05_slack_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/05_slack_integration.html</guid>
+      <description>In this integration, we will make a lambda function send a Slack message every time that we have a new detection, you can deploy this automation using the AWS COnsole, AWS CLI or Makefile. In this example we will demonstrate using the AWS CLI:
+Requirements  Install and COnfigure the AWS CLI - Install the AWS command line interface (CLI). See Installing the AWS CLI for details. Configure Slack Webhook App</description>
+    </item>
+    
+    <item>
+      <title>Quarantine Malicious Files</title>
+      <link>/03_automation/06_promote_and_quarantine.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/06_promote_and_quarantine.html</guid>
+      <description>Prerequisites  Create S3 buckets  Create a &amp;lsquo;Promote bucket&amp;rsquo; to receive clean files. Example: fss-promote. Create a &amp;lsquo;Quarantine bucket&amp;rsquo; to receive quarantined files. Example: fss-quarantine.  Find the &amp;lsquo;ScanResultTopic&amp;rsquo; SNS topic ARN  In the AWS console, go to Services &amp;gt; CloudFormation &amp;gt; your all-in-one stack &amp;gt; Resources &amp;gt; your storage stack &amp;gt; Resources. Scroll down to locate the ScanResultTopic Logical ID. Copy the ScanResultTopic ARN to a temporary location.</description>
+    </item>
+    
+    <item>
+      <title>Security Hub Integration</title>
+      <link>/03_automation/07_securityhub_integration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/03_automation/07_securityhub_integration.html</guid>
+      <description> Monitoring your Scans in Security Hub </description>
+    </item>
+    
+  </channel>
+</rss>

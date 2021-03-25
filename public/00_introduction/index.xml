@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Data Security with Trend Micro</title>
+    <link>/00_introduction.html</link>
+    <description>Recent content in Introduction on Data Security with Trend Micro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/00_introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trend Micro Cloud One</title>
+      <link>/00_introduction/01_cloud_one.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00_introduction/01_cloud_one.html</guid>
+      <description>What is Trend Micro Cloud One? Trend Micro Cloud One, a security services platform for organizations building in the cloud, delivers the broadest and deepest cloud security offering in one solution, enabling you to secure your cloud infrastructure with clarity and simplicity. By considering your cloud projects and objectives holistically, Trend Micro Cloud One is able to provide powerful security, while you leverage all of the benefits and efficiencies the cloud offers your business.</description>
+    </item>
+    
+    <item>
+      <title>Cloud One workload Security</title>
+      <link>/00_introduction/02_workload_security.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/00_introduction/02_workload_security.html</guid>
+      <description>workload security Cloud one workload security is part of the Trend Micro Cloud One™ security service platform,it designed to secure your workloads at runtime for any of those enviroments (physical,virtual,cloud and container) securely by offering multiple advantages:
+1-Automated:
+Security as code lets your DevOps teams bake security into their build pipeline to release continuously and frequently. With built-in automation, including automated discovery and deployment, quick-start templates, and our Automation Center, secure your environment and meet compliance requirements quickly.</description>
+    </item>
+    
+  </channel>
+</rss>
